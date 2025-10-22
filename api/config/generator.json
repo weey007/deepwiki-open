@@ -193,6 +193,21 @@
           "top_p": 0.8
         }
       }
+    },
+    "deepseek": {
+      "client_class": "DeepSeekClient",
+      "default_model": "deepseek-chat",
+      "supportsCustomModel": true,
+      "models": {
+        "deepseek-chat": {
+          "temperature": 0.7,
+          "top_p": 0.8
+        },
+        "deepseek-coder": {
+          "temperature": 0.7,
+          "top_p": 0.8
+        }
+      }
     }
   }
 }
